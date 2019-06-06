@@ -142,7 +142,8 @@ nav a {
     width: 100%;
 }
 .container1, .container2, .container3 {
-    width: calc((100%)/3);
+    width: calc((100% - 60px)/3);
+    margin: 5px 10px;
 }
 .text-div {
     width: 100%;
