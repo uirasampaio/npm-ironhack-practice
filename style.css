@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: Times, sans-serif;
+}
+/* nav */
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 40px;
+}
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* header */
+.wrapper-search {
+    display: flex;
+    width: 100%;
+}
+#first-logo {
+    width: 100px;
+}
+#searcher {
+    width: 70%;
+}
+
+.other-wrapper {
+    display: flex;
+    padding: 0 5px;
+}
+.heading {
+    background-color:rgb(32, 101, 136);
+    background-image: url(images/city-scape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+/* header search */
+#npm-logo {
+    width: 80px;
+    padding: 12px 0 0 10px;
+}
+#search {
+    margin: 15px 5px;
+    background-color:rgb(31, 82, 111);
+    color: white;
+    border: 1px solid #000f26;
+    width: 90%;
+    padding: 0px 5px;
+
+}
+#bear-logo {
+    max-width: 60%;
+}
+.heading-btn {
+    color: white;
+    font-weight: 700;
+    background-color:#f09233;
+    padding: 8px 12px;
+    border-radius: 26px;
+    border: 1px solid #f09233;
+}
+.heading-txt {
+    margin: 0 auto;
+    color: white;
+    padding: 15px 0 10px 8em;
+}
+.sign-in {
+    color: white;
+    padding: 0 5px;
+}
+/* sec 1 */
+.section-1 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(39, 53, 71);
+    color: white;
+    justify-content: center;
+}
+.section-img {
+    width: calc(40% - 50px);
+    display: flex;
+    justify-content: center;
+}
+.text {
+    width: 40%;
+}
+
+.sign-org-btn {
+    color: white;
+    font-weight: 700;
+    background-color: #cb3837;
+    padding: 8px 12px;
+    border-radius: 26px;
+    border: 1px solid #cb3837;
+}
+/* sec 2 */
+.section-2 {
+    background-image: url(images/forklift.svg);
+    min-width: 100%;
+    height: 300px;
+    color: white;
+    margin: 0 auto;
+}
+.container-2 {
+    padding: 80px 0 10px 150px;
+}
+.install-btn {
+    color: white;
+    font-weight: 700;
+    background-color: #34495e;
+    padding: 8px 12px;
+    border-radius: 26px;
+    border: 1px solid #34495e;
+}
+/* sec 3 */
+.section3-text {
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.container1, .container2, .container3 {
+    width: calc((100%)/3);
+}
+.text-div {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.img-div {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.b-headings {
+    color: rgb(83, 88, 98);
+}
+.b-text {
+    color: rgb(135, 145, 156);
+    padding: 0 30px;
+}
+b {
+    color: rgb(208, 74, 73)
+}
